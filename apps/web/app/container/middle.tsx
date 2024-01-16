@@ -22,7 +22,7 @@ export default function Middle(): JSX.Element {
           </Tooltip>
         </div>
       </div>
-      <div className='h-full w-96 bg-slate-200'>
+      <div className='h-[100vh] w-96 bg-slate-200'>
         <DndProvider backend={HTML5Backend}>
           <Vessel snapToGrid />
         </DndProvider>

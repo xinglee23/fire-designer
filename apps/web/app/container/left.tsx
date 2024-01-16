@@ -52,7 +52,7 @@ export default function Left(): JSX.Element {
   };
 
   return collapse ? (
-    <div className='flex flex-wrap w-[320px] h-full border-r overflow-auto'>
+    <div className='flex flex-wrap w-[320px] h-[100vh] border-r overflow-auto'>
       <div className='w-full flex justify-between items-center h-18 p-3 text-left border-b'>
         <Text weight='bold'>Components</Text>
         <DoubleArrowLeftIcon
@@ -70,6 +70,6 @@ export default function Left(): JSX.Element {
       ))}
     </div>
   ) : (
-    <DoubleArrowRightIcon className='ml-3' onClick={handleCollapse} />
+    <DoubleArrowRightIcon className='ml-3 cursor-pointer' onClick={handleCollapse} />
   );
 }

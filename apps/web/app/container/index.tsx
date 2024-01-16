@@ -6,7 +6,7 @@ import Middle from './middle';
 
 export default function Container(): JSX.Element {
   return (
-    <div className='h-full flex justify-between'>
+    <div className='h-[100hv] flex justify-between'>
       <Left />
       <Middle />
       <Right />
